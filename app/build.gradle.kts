@@ -1,4 +1,4 @@
-nano app/build.gradle.ktsplugins {
+plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
