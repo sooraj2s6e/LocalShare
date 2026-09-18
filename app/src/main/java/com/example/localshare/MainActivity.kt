@@ -38,7 +38,7 @@ class MainActivity : Activity() {
 
         val address = EditText(this).apply {
             hint = "PC address: 192.168.1.5:8000"
-            singleLine = true
+            setSingleLine(true)
             setPadding(20, 10, 20, 10)
         }
 
